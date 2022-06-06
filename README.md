@@ -1,7 +1,7 @@
 # Sistema de Seleção Simplificada de professores (Demanda DEAD/IFMA)
 ## Problematicação
 - No departamento de EAD do IFMA é necessário a cada semestre fazer a seleção simplificada de professores para ministrarem as disciplinas do próximo semestre, conforme critérios baseado nos editais aprovados pela PROJUR.
-## Contextualização (fatores a serem considerados):
+
 ## O sistema deverá conter:
 - A base de dados deve criptografar a senha do usuário.
 - A interface deve ser web, com o framework Django.
@@ -14,3 +14,5 @@ se servidor IFMA.
 - Um comprovante de inscrição deve ser encaminhado ao email do
 candidato;
 - O sistema deve permitir a homologação das inscrições realizadas.
+
+Equipe de desenvolvimento: Pedro Guilherme Silva Moura, Leanderson, Carlos Augusto.
