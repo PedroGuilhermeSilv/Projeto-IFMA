@@ -8,12 +8,16 @@ def home(request):
         'name': 'Luiz Otávio',
     })
 
-def recipe(request,id):
+def recipe(request):
     return render(request, 'recipes/pages/recipe-view.html', context={
         'name': 'Luiz Otávio',
     })
 
 def menu(request):
     return render(request, 'recipes/pages/menu.html', context={
+        'name': 'Luiz Otávio',
+    })
+def cadastro(request):
+    return render(request, 'recipes/pages/cadastro.html', context={
         'name': 'Luiz Otávio',
     })
